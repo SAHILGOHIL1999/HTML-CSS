@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+        .heading1 {
+            font-size: 37px;
+            font-weight: 600;
+            font-family: "Noto Serif", serif;
+            color: rgb(150, 65, 5);
+            text-align: center;
+        }
+
+        .heading2 {
+            text-align: center;
+            font-family: Arial, Helvetica, Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 600;
+            color: #a39c13ec;
+        }
+
+        p {
+            font-family: "Poppins", sans-serif;
+        }
+
+        .blink {
+            animation: blinker 1.5s linear infinite;
+            color: red;
+            font-family: sans-serif;
+        }
+
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
+
+        h2 {
+            color: #041255;
+        }
+        img {
+            width: 300px;
+            height: 250px;
+        }
+
+        .heading3 {
+            font-size: 28px;
+            color: #88017c;
+        }
+
+        .heading4 {
+            font-size: 28px;
+            color: #250188;
+        }
+    </style>
+</head>
+
+<hr>
+    <h1 class="heading1"><u>Welcome to My Html Page!</u></h1>
+
+    <h1 class="heading2">About Me</h1>
+    <p align="center">Hello ! I am learing how to create animated and interactive web pages using Html</p>
+    <hr />
+
+    <center>
+        <h2>Html Image</h2>
+        <img src="images/HTML-Blog-Cover (1).png" alt="Html img" title="HTML">
+    </center>
+    <hr/>
+
+    <h3 class="heading3">Useful Links</h3>
+
+    <ul style="font-size: 18px;">
+    <li><a href="https://simple.wikipedia.org/wiki/HTML" target="_blank">Visit of Html Wikpedia</a></li>
+    <li><a href="http://localhost:52331/Lab%202/index.html" target="_blank">View my project</a></li>
+    </ul><hr/>
+
+    <h3 class="heading4">Contact Me</h3>
+    <p><strong>Email Id :</strong>
+        example123@gmail.com
+    </p>
+
+    <p><strong>Mobile no :</strong>
+        99898-24142
+    </p><hr/>
+
+    <marquee class="blink" scrollamount="10">
+        HTML provides the foundational framework for any content displayed on the World Wide Web.
+    </marquee><hr/>
+</body>
+
+</html>
