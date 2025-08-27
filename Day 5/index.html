@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header */
+
+        .header {
+            width: 100%;
+            padding: 3px 15px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #222;
+
+        }
+
+        img {
+            width: 60px;
+            height: 40px;
+        }
+
+        .header ul {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+
+        .header ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            padding: 5px 10px;
+        }
+
+        section {
+            height: 490px;
+            padding: 30px;
+        }
+
+        #audio {
+            background: #e3f2fd;
+
+        }
+
+        #audio audio {
+            margin-top: 15px;
+        }
+
+        #video {
+            background: #f9dae4;
+        }
+
+        #video video {
+            width: 500px;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+
+        #gallery {
+            background: #e8f5e9;
+        }
+
+        #gallery img {
+            width: 380px;
+            height: 380px;
+            margin-top: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="header">
+                <img src="image-video/Media_Player.png" alt="header">
+                <ul>
+                    <li><a href="#audio">Audio Player</a></li>
+                    <li><a href="#video">Video Player</a></li>
+                    <li><a href="#gallery">Image Gallery</a></li>
+                    <li>
+                        <a href="https://maps.app.goo.gl/D89Qgzfuv47Etfo97" target="_blank">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section id="audio">
+            <h2>Audio Player</h2>
+            <p>Content about audio player...</p>
+            <audio controls muted>
+                <source src="image-video/Audio .mpeg" type="audio/mpeg">
+            </audio>
+        </section>
+
+        <section id="video">
+            <h2>Video Player</h2>
+            <p>Content about video player...</p>
+            <video controls>
+                <source src="image-video/Mere Mann Mein Radhe.mp4" type="video/mp4" style="width: 10px;">
+            </video>
+        </section>
+
+        <section id="gallery">
+            <h2>Image Gallery</h2>
+            <p>Content about image gallery...</p>
+            <img src="image-video/media.png" alt="Media">
+        </section>
+    </header>
+
+</body>
+
+</html>
