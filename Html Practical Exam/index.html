@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Website Layout Only Html</title>
+    <!-- Font awsome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <table width="100%" border="0" cellpadding="8" cellspacing="0" bgcolor="#0F1111">
+            <!-- Logo -->
+            <tr valign="middle">
+                <td width="12%">
+                    <a href="#amazon" style="text-decoration:none;">
+                        <table border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td>
+                                    <span style="color:#FF9900; font-size:26px; font-weight:bold;">amazon</span>
+                                    <span style="color:#fff; font-size:14px; font-weight:bold;">.in</span>
+                                </td>
+                            </tr>
+                        </table>
+                    </a>
+                </td>
+
+                <!-- Delivering to -->
+                <td width="20%">
+                    <span>
+                        <font color="#ccc">Delivering to Surat 395007</font>
+                    </span><br>
+                    <i class="fa-solid fa-location-dot" style="color: #f5f7fa;"></i>
+                    <span>
+                        <font color="#ccc">Update location</font>
+                    </span>
+                </td>
+
+                <!-- Search -->
+                <td width="20%">
+                    <form>
+                        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td width="5%">
+                                    <select name="cat">
+                                        <option selected>All</option>
+                                        <option value="Electronic">Electronics</option>
+                                        <option value="Mobile">Mobiles</option>
+                                        <option value="Fashion">Fashion</option>
+                                        <option value="Home & Kitchen">Home & Kitchen</option>
+                                    </select>
+                                </td>
+                                <td width="78%">
+                                    <input type="text" name="search" placeholder="Search Amazon.in" size="60">
+                                </td>
+                                <td width="10%">
+                                    <button type="submit">🔍</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </td>
+
+                <!-- Language -->
+                <td width="10%" valign="middle">
+                    <img src="Images/flag.png" alt="flag" width="20">
+                    <span>
+                        <font color="#fff"> <big>EN</big> <small>IN</small></font>
+                    </span>
+                </td>
+
+                <!-- Account -->
+                <td width="15%">
+                    <form>
+                        <font color="#fff">
+                            <small>Hello, sign in</small><br>
+                            <b>Account &amp; Lists ▾</b>
+                        </font>
+                        <select name="scroll">
+                            <option value="your accout">Your Lists</option>
+                            <option value="your order">Your Orders</option>
+                            <option value="your wish lists">Your Whish List</option>
+                        </select>
+                    </form>
+                </td>
+                <td width="6%">
+                    <a href="https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fyour-orders%2Forders%3Fref_%3Dnav_orders_first&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_retail_yourorders_in&openid.mode=checkid_setup&language=en_IN&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0"
+                        style="color:#fff; text-decoration:none;">
+                        <small>Returns</small><br>
+                        <b>&amp; Orders</b>
+                    </a>
+                </td>
+
+                <!-- Cart -->
+                <td width="6%" align="right">
+                    <a href="#" style="color:#fff; text-decoration:none;">🛒 Cart</a>
+                </td>
+            </tr>
+        </table>
+    </header>
+
+    <!-- Category Bar -->
+    <nav>
+        <table width="100%" border="0" cellpadding="10" cellspacing="0" bgcolor="#232F3E">
+            <tr>
+                <td width="4%" align="center" style="color:#fff;">☰ <b>All</b></td>
+                <td><a href="#" style="color:#fff; text-decoration:none;">Fresh</a></td>
+                <td><a href="#" style="color:#fff; text-decoration:none;">MX Player</a></td>
+                <td><a href="#" style="color:#fff; text-decoration:none;">Sell</a></td>
+                <td><a href="#" style="color:#fff; text-decoration:none;">Bestsellers</a></td>
+                <td><a href="#" style="color:#fff; text-decoration:none;">Mobiles</a></td>
+                <td><a href="#" style="color:#fff; text-decoration:none;">Today's Deals</a></td>
+                <td><a href="#" style="color:#fff; text-decoration:none;">Prime ▾</a></td>
+                <td><a href="#" style="color:#fff; text-decoration:none;">Customer Service</a></td>
+                <td><a href="#" style="color:#fff; text-decoration:none;">New Releases</a></td>
+                <td><a href="#" style="color:#fff; text-decoration:none;">Electronics</a></td>
+                <td><a href="#" style="color:#fff; text-decoration:none;">Fashion</a></td>
+                <td><a href="#" style="color:#fff; text-decoration:none;">Home &amp; Kitchen</a></td>
+                <td><a href="#" style="color:#fff; text-decoration:none;">Amazon Pay</a></td>
+            </tr>
+        </table>
+    </nav>
+
+    <!-- Home Page -->
+    <section>
+        <!-- Slider Images -->
+        <table width="100%" bgcolor="#dcdee0">
+            <tr>
+                <td>
+                    <marquee behavior="slider" direction="left" scrollamount="15">
+                        <img src="Images/p1.jpg" alt="P1" width="800" height="500">
+                        <img src="Images/p2.jpg" alt="P2" width="800" height="500">
+                        <img src="Images/p3.jpg" alt="P3" width="800" height="500">
+                        <img src="Images/p4.jpg" alt="P4" width="800" height="500">
+                        <img src="Images/p5.jpg" alt="P5" width="800" height="500">
+                    </marquee>
+                </td>
+            </tr>
+        </table>
+
+        <!-- Columns -->
+        <table width="100%" cellpadding="10" cellspacing="0" border="0" align="center">
+            <tr>
+                <!-- Column 1 -->
+                <td valign="top" width="25%">
+                    <table width="100%" cellpadding="8" cellspacing="0" border="1">
+                        <tr>
+                            <td>
+                                <h2>Revamp your home in style</h2>
+                                <table width="100%" cellpadding="5" cellspacing="0" border="0">
+                                    <tr>
+                                        <td width="50%" valign="top">
+                                            <img src="https://placehold.co/400" alt="Cushion covers" width="100%">
+                                            <p><small>Cushion covers, bedsheets & more</small></p>
+                                        </td>
+                                        <td width="50%" valign="top">
+                                            <img src="https://placehold.co/400" alt="Figurines" width="100%">
+                                            <p><small>Figurines, vases & more</small></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="50%" valign="top">
+                                            <img src="https://placehold.co/400" alt="Home storage" width="100%">
+                                            <p><small>Home storage</small></p>
+                                        </td>
+                                        <td width="50%" valign="top">
+                                            <img src="https://placehold.co/400" alt="Lighting solutions" width="100%">
+                                            <p><small>Lighting solutions</small></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <p><a href="#">Explore all</a></p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+
+                <!-- Column 2 -->
+                <td valign="top" width="25%">
+                    <table width="100%" cellpadding="8" cellspacing="0" border="1">
+                        <tr>
+                            <td>
+                                <h2>Get your desired TV screen size | Starting...</h2>
+                                <table width="100%" cellpadding="5" cellspacing="5" border="0">
+                                    <tr>
+                                        <td width="50%" valign="top">
+                                            <img src="https://placehold.co/400" alt="Budget TVs" width="100%">
+                                            <p><small>Budget TVs | Save extra with No Cost EMI</small></p>
+                                        </td>
+                                        <td width="50%" valign="top">
+                                            <img src="https://placehold.co/400" alt="4K TVs" width="100%">
+                                            <p><small>4K TVs | Up to 24 months No Cost EMI</small></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="50%" valign="top">
+                                            <img src="https://placehold.co/400" alt="Big Screens" width="100%">
+                                            <p><small>Big Screens | Free installation</small></p>
+                                        </td>
+                                        <td width="50%" valign="top">
+                                            <img src="https://placehold.co/400" alt="Ultra Premium TVs" width="100%">
+                                            <p><small>Ultra Premium TVs | Up to 50% off</small></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <p><a href="#">See all</a></p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+
+                <!-- Column 3 -->
+                <td valign="top" width="25%">
+                    <table width="100%" cellpadding="8" cellspacing="0" border="1">
+                        <tr>
+                            <td>
+                                <h2>Appliances for your home | Up to 55% off</h2>
+                                <table width="100%" cellpadding="5" cellspacing="5" border="0">
+                                    <tr>
+                                        <td width="50%" valign="top">
+                                            <img src="https://placehold.co/400" alt="Air conditioners" width="100%">
+                                            <p><small>Air conditioners</small></p>
+                                        </td>
+                                        <td width="50%" valign="top">
+                                            <img src="https://placehold.co/400" alt=" Refrigerators" width="100%">
+                                            <p><small>Refrigerators</small></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="50%" valign="top">
+                                            <img src="https://placehold.co/400" alt="Microwaves" width="100%">
+                                            <p><small>Microwaves</small></p>
+                                        </td>
+                                        <td width="50%" valign="top">
+                                            <img src="https://placehold.co/400" alt="Washing machines" width="100%">
+                                            <p><small>Washing machines</small></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <p><a href="#">See more</a></p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+
+                <!-- Column 4 -->
+                <td valign="top" width="25%">
+                    <table width="100%" cellpadding="8" cellspacing="0" border="1">
+                        <tr>
+                            <td>
+                                <h2>Starting ₹149 | Headphones</h2>
+                                <table width="100%" cellpadding="5" cellspacing="5" border="0">
+                                    <tr>
+                                        <td width="50%" valign="top">
+                                            <img src="https://placehold.co/400" alt="boAt" width="100%">
+                                            <p><small>Starting ₹249 | boAt</small></p>
+                                        </td>
+                                        <td width="50%" valign="top">
+                                            <img src="https://placehold.co/400" alt="boult" width="100%">
+                                            <p><small>Starting ₹349 | boult</small></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="50%" valign="top">
+                                            <img src="https://placehold.co/400" alt="Noise" width="100%">
+                                            <p><small>Starting ₹649 | Noise</small></p>
+                                        </td>
+                                        <td width="50%" valign="top">
+                                            <img src="https://placehold.co/400" alt="Zebronics" width="100%">
+                                            <p><small>Starting ₹149 | Zebronics</small></p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <p><a href="#">See all offers</a></p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Footer -->
+    <section>
+        <footer>
+
+            <!-- Top Section -->
+            <table width="100%" cellspacing="20" bgcolor="#16334f" style="color: #fff;">
+                <tr>
+                    <td>
+                        <h3>Get to Know Us</h3>
+                        <p><a href="#" style="color: #c0c2c4;">About Amazon</a></p>
+                        <p><a href="#" style="color: #c0c2c4;">Careers</a></p>
+                        <p><a href="#" style="color: #c0c2c4;">Press Releases</a></p>
+                        <p><a href="#" style="color: #c0c2c4;">Amazon Science</a></p>
+                    </td>
+                    <td>
+                        <h3>Connect with Us</h3>
+                        <p><a href="#" style="color: #c0c2c4;">Facebook</a></p>
+                        <p><a href="#" style="color: #c0c2c4;">Twitter</a></p>
+                        <p><a href="#" style="color: #c0c2c4;">Instagram</a></p>
+                    </td>
+                    <td>
+                        <h3>Make Money with Us</h3>
+                        <p><a href="#" style="color: #c0c2c4;">Sell on Amazon</a></p>
+                        <p><a href="#" style="color: #c0c2c4;">Sell under Amazon Accelerator</a></p>
+                        <p><a href="#" style="color: #c0c2c4;">Protect and Build Your Brand</a></p>
+                        <p><a href="#" style="color: #c0c2c4;">Amazon Global Selling</a></p>
+                        <p><a href="#" style="color: #c0c2c4;">Supply to Amazon</a></p>
+                        <p><a href="#" style="color: #c0c2c4;">Become an Affiliate</a></p>
+                        <p><a href="#" style="color: #c0c2c4;">Fulfilment by Amazon</a></p>
+                        <p><a href="#" style="color: #c0c2c4;">Advertise Your Products</a></p>
+                        <p><a href="#" style="color: #c0c2c4;">Amazon Pay on Merchants</a></p>
+                    </td>
+                    <td>
+                        <h3>Let Us Help You</h3>
+                        <p><a href="#" style="color: #c0c2c4;">Your Account</a></p>
+                        <p><a href="#" style="color: #c0c2c4;">Returns Centre</a></p>
+                        <p><a href="#" style="color: #c0c2c4;">Recalls and Product Safety Alerts</a></p>
+                        <p><a href="#" style="color: #c0c2c4;">100% Purchase Protection</a></p>
+                        <p><a href="#" style="color: #c0c2c4;">Amazon App Download</a></p>
+                        <p><a href="#" style="color: #c0c2c4;">Help</a></p>
+                    </td>
+                </tr>
+
+                <center>
+                    <table width="100%" style="border-top:1px solid black ;" bgcolor="#16334f">
+                        <tr>
+                            <td>
+                                <img src="Images/amazon-logo.png" alt="Amazon Logo" width="100">
+                            </td>
+                            <td>
+                                <select>
+                                    <option>English</option>
+                                    <option>हिन्दी</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select>
+                                    <option>India</option>
+                                    <option>USA</option>
+                                    <option>UK</option>
+                                </select>
+                            </td>
+                            <td>
+                                <a
+                                    href="https://www.amazon.in/customer-preferences/country?ie=UTF8&preferencesReturnUrl=%2Fref%3Dnav_logo&ref_=footer_icp_cp"></a>
+                                <img src="Images/flag.png" alt="flag" width="30">
+                                </a>
+                            </td>
+                            </td>
+                            </td>
+                        </tr>
+                    </table>
+            </table>
+            </center>
+            <table width="100%" cellspacing="20" align="center" bgcolor="#04192e">
+                <tr style="color: #c0c2c4;">
+                    <td>
+                        <b>AbeBooks</b><br>
+                        Books, art<br>
+                        & collectibles
+                    </td>
+                    <td>
+                        <b>Amazon Web Services</b><br>
+                        Scalable Cloud<br>
+                        Computing Services
+                    </td>
+                    <td>
+                        <b>Audible</b><br>
+                        Download<br>
+                        Audio Books
+                    </td>
+                    <td>
+                        <b>IMDb</b><br>
+                        Movies, TV<br>
+                        & Celebrities
+                    </td>
+                </tr>
+                <tr style="color: #c0c2c4;">
+                    <td>
+                        <b>Shopbop</b><br>
+                        Designer<br>
+                        Fashion Brands
+                    </td>
+                    <td>
+                        <b>Amazon Business</b><br>
+                        Everything For<br>
+                        Your Business
+                    </td>
+                    <td>
+                        <b>Prime Now</b><br>
+                        2-Hour Delivery<br>
+                        on Everyday Items
+                    </td>
+                    <td>
+                        <b>Amazon Prime Music</b><br>
+                        100 million songs, ad-free<br>
+                        Over 15 million podcast<br>
+                        episodes
+                    </td>
+                </tr>
+            </table>
+            <table width="100%" bgcolor="#04192e" align="center">
+                <tr style="text-decoration: none;">
+                    <td>
+                        <center>
+                            <a href="https://www.amazon.in/gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou"
+                                style="color: #c0c2c4;">
+                                Conditions of Use & Sale</a> &nbsp;
+                            <a href="https://www.amazon.in/gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy"
+                                style="color: #c0c2c4;">
+                                Privacy Notice</a> &nbsp;
+                            <a href="https://www.amazon.in/gp/help/customer/display.html?nodeId=20207505ref_=footer_iba"
+                                style="color: #c0c2c4;">
+                                Interest-BasedAds</a>
+                        </center>
+                    </td>
+                </tr>
+                <tr style="color: #c0c2c4;">
+                    <td>
+                        <center>
+                            <p align-item="center">© 1996-2025, Amazon.com, Inc. or its affiliates</p>
+                        </center>
+                    </td>
+                </tr>
+            </table>
+        </footer>
+    </section>
+</body>
+
+</html>
