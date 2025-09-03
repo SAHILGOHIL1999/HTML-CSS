@@ -6,15 +6,16 @@
 
 .container{
     width: 850px;
-    height: 100vh;
+    height: 630px;
     border: 5px solid black;
     margin: 0px auto;
     background-color: antiquewhite;
 }
 
+/* Name-Course */
 .container h1{
     font-size: 30px;
-    margin-top: 8px;
+    margin-top: 15px;
     line-height: 1.5;
 }
 
@@ -23,10 +24,10 @@
     font-size: 20px;
     font-style: italic;
     letter-spacing: 5px;
-    padding-top: 0px;
 }
 
-.abc{
+/* About me */
+.about{
     font-size: 25px;
     font-weight: bold;
     margin: 20px 0;
@@ -38,6 +39,7 @@
     margin-top: 10px;
 }
 
+/* Education */
 .education{
     font-size: 25px;
     font-weight: bold;
@@ -45,6 +47,7 @@
     text-decoration: underline;
 }
 
+/* Skill */
 .skill{
     font-size: 25px;
     font-weight: bold;
@@ -52,6 +55,7 @@
     text-decoration: underline;
 }
 
+/* Experience */
 .experience{
     font-size: 25px;
     font-weight: bold;
@@ -59,6 +63,7 @@
     text-decoration: underline;
 }
 
+/* Contact */
 .contact{
     font-size: 25px;
     font-weight: bold;
