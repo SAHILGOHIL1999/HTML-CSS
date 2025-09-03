@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 850px;
+    height: 100vh;
+    border: 5px solid black;
+    margin: 0px auto;
+    background-color: antiquewhite;
+}
+
+.container h1{
+    font-size: 30px;
+    margin-top: 8px;
+    line-height: 1.5;
+}
+
+.container span{
+    color: hsl(172, 60%, 31%);
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 5px;
+    padding-top: 0px;
+}
+
+.abc{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0;
+    text-decoration: underline;
+}
+
+.xyz{
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+.education{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0;
+    text-decoration: underline;
+}
+
+.skill{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0;
+    text-decoration: underline;
+}
+
+.experience{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0;
+    text-decoration: underline;
+}
+
+.contact{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0;
+    text-decoration: underline;
+}
