@@ -1,0 +1,55 @@
+.container {
+    width: 60%;
+    border: 3px solid black;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    background-color: bisque;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-style: italic;
+    color: #4a5c5c;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+section h3 {
+    text-decoration: underline;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+section i {
+    margin-right: 5px;
+    color: #333;
+}
+
+p, li {
+    font-size: 1rem;
+    color: #222;
+    line-height: 1.6;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+.contact p {
+    margin: 5px 0;
+}
