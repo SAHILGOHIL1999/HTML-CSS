@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    width: 950px;
+    height: 500px;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+h1{
+    text-align: center;
+    padding-top: 5px;
+}
+
+.container-cart{
+    width: 200px;
+    height: 265px;
+    box-shadow: 3px 2px 5px lightcoral;
+    padding: 0 50px;
+    margin: 50px 13px 0px 0px ;
+    background-color: #f7f4f4f8;
+    display: inline-block;
+}
+
+.container-cart img{
+    width: 200px;
+    height: 180px;
+}
+
+.container-cart h4{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.container-cart .Description{
+    font-size: 0.6rem;
+}
+
+.container-cart .price{
+    padding-top: 5px;
+}
+
+ 
